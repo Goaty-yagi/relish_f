@@ -125,6 +125,9 @@ export default function Location() {
         <Link to="/Quiz">
           <button className='location-proceed-btn'>Proceed</button>
         </Link>
+        <Link to="/auth/login">
+          <button className='location-proceed-btn'>Login</button>
+        </Link>
         <div className='use-my-location'>
           <p className="material-symbols-outlined">my_location</p>
           <p onClick={getMyLocation}>Use my current location</p>
